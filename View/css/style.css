@@ -1,41 +1,42 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    background-color: rgb(13, 6, 122);
-    color: aliceblue;
-    background-color: black;
+.header-home{
+    background-color: aquamarine;
 }
 
-.logo-Header{
-width: 15rem;
-text-align: center;
-margin-left: 15rem;
-padding-top:30px;
+.header-logo{
+    margin-left: 15rem;
+}
+.logo{
+    background-color: blue;
+    width: 6rem;
+    font-size: 1.4rem;
+}
+ nav{
+    margin-left: 83rem;
+ }
+
+.menu{
+    width: 25rem;
 }
 
-.logo-Header h1{
-    padding-top: 20px;
-    font-size: 34px;
-}
-
-.nav-Header{
-     display: flex;
-     justify-content: end;
-}
-
-.nav-Header ul{
+.menu ul{
     display: flex;
-    background-color: rgb(8, 8, 8);
-    margin-right: 9rem;
-    font-size: 24px;
-    margin-bottom: 2rem;
+    justify-content: space-evenly;
 }
 
-.nav-Header li{
-    margin-right: 4rem;
+.menu li{
     list-style: none;
+    cursor: pointer;
+}
+
+
+/* EFEITOS */
+.menu li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
